@@ -1,0 +1,20 @@
+{
+  "name": "d3-margin-convention",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "fengshuo <fengshuo142003@gmail.com>"
+  ],
+  "description": "Implement d3 margin convention",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
