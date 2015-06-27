@@ -1,5 +1,7 @@
 # Implement d3 Margin Convention
 
+To [reuse](http://bost.ocks.org/mike/chart/) the [margin convention](http://bl.ocks.org/mbostock/3019563).
+
 ## Install
 
 `npm install d3-margin-convention`  
@@ -9,7 +11,10 @@
 
 ## Usage
 
-Call the d3-margin-convention function. 1)Use chained method to update `width`, `height`, or `margin` of the svg container, 2)Use `innerChart` to get the transformed <g> element. 3) Use `innerWidth` or `innerHeight` to get the actual chart size, such as translate the x axis.  
+Call the d3-margin-convention function.   
+1)Use chained method to update `width`, `height`, or `margin` of the svg container;  
+2)Use `innerChart` to get the transformed <g> element;  
+3) Use `innerWidth` or `innerHeight` to get the actual chart size, such as translate the x axis.  
 
 ## Example
 

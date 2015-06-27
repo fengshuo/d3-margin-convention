@@ -5,10 +5,16 @@
   "authors": [
     "fengshuo <fengshuo142003@gmail.com>"
   ],
+  "keywords":"d3,margin,convention",
+  "homepage": "https://github.com/fengshuo/d3-margin-convention",
   "description": "Implement d3 margin convention",
   "moduleType": [
     "amd"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengshuo/d3-margin-convention.git"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
