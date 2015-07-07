@@ -11,14 +11,14 @@ To [reuse](http://bost.ocks.org/mike/chart/) the [margin convention](http://bl.o
 
 ## Usage
 
-Call the d3-margin-convention function.   
-1)Use chained method to update `width`, `height`, or `margin` of the svg container;  
-2)Use `innerChart` to get the transformed <g> element;  
-3) Use `innerWidth` or `innerHeight` to get the actual chart size, such as translate the x axis.  
+Call the d3-margin-convention function.  
+1) Use chained method to update `width`, `height`, or `margin` of the svg container;
+2) Use `innerChart` to get the transformed <g> element;
+3) Use `innerWidth` or `innerHeight` to get the actual chart size, such as translate the x axis.
 
 ## Example
 
-### Webpack
+### CommonJS
 
 #### entry.js
 
@@ -31,6 +31,7 @@ var svg = d3.select("body").append("svg")
 	.datum(data)
 	.call(chart);
 
+// add axis
 svg.innerChart.append("g")
 	.attr("transform","translate(0,"+chart.innerHeight+")")
 	.attr("class","axis x")
@@ -56,6 +57,7 @@ window.onload = function(){
   	.datum(data)
   	.call(chart);
 
+// add axis
   svg.innerChart.append("g")
   	.attr("transform","translate(0,"+chart.innerHeight+")")
   	.attr("class","axis x")
